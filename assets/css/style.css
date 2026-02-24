@@ -951,6 +951,7 @@ section::after {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     position: relative;
+    justify-items: center;
 }
 
 .info-list::before {
@@ -971,6 +972,8 @@ section::after {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     position: relative;
     overflow: hidden;
+    width: 100%;
+    max-width: 350px;
 }
 
 .info-list li::before {
